@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#if os(macOS) || os(tvOS) || os(iOS) || os(watchOS)
+#if os(macOS) || os(tvOS) || os(visionOS) || os(iOS) || os(watchOS)
 import Darwin
 #else
 import Glibc
